@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="login.css">
+
+    <style>
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+h2 {text-align: center;}
+h4 {text-align: center;}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+
+<title>Login</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+        <nav>
+            <div class="container">
+                <ul>
+                    <label class="Logo" style="
+                         color: #ff0000;
+                         font-size: 35px;
+                         line-height: 80px;
+                         padding: 0 100px;
+                        font-weight: bold;"
+                        >Pirataflix</label>
+                    <li><a href="adm.html">Adm</a></li>
+                    <li><a href="Tela de login.html">Login</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</div>
+
+<div id="login">
+<form action="./cliente.php" method="post">
+<form class="card">
+
+    <div class="card-header">
+
+        <h2>Login</h2>
+
+    </div>
+
+    <div class="card-content">
+
+        <div class="card-content-area">
+
+            <label for="Usuário">Usuário</label>
+
+            <input type="text" id="Usuário" autocomplete="off">
+
+    </div>
+
+    <div class="card-content-area">
+
+        <label for="Password">Senha</label>
+
+        <input type="Password" id="Password" autocomplete="off">
+
+    </div>
+
+</div>
+
+<input type="submit" value="Entrar">
+</form>
+
+<script src="java.js"></script>
+
+</body>
+
+</html>

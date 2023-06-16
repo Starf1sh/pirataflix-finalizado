@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="produtos.css">
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+h2 {text-align: center;}
+h4 {text-align: center;}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+        <nav>
+            <div class="container">
+                <ul>
+                    <label class="Logo" style="
+                         color: #ff0000;
+                         font-size: 35px;
+                         line-height: 80px;
+                         padding: 0 100px;
+                        font-weight: bold;"
+                        >Pirataflix</label>
+                    <li><a href="adm.html">Adm</a></li>
+                    <li><a href="Tela%20de%20login.html">Login</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</div>
+
+<h2 style="color: red;">Nossos Produtos</h2>
+
+<h4 style="color: red;">Ultimos lançamentos</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="duna-poster.png">
+      <img src="duna-poster.png" alt="Cinque Terre" width="610" height="400">
+    </a>
+    <div class="desc"><b style="color: red;">20,00$</b></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="the-offering-poster.png">
+      <img src="the-offering-poster.png" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><b style="color: red;">15,00$</b></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Zoolander.png">
+      <img src="Zoolander.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><b style="color: red;">10,00$</b></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="DRAGONBALL_EVOLUTION.png">
+      <img src="DRAGONBALL_EVOLUTION.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><del style="color: red;">9,99$</del><sup style="color: red;">Grátis!</sup></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+</body>
+</html>
